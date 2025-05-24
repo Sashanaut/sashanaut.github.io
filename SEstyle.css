@@ -3,7 +3,7 @@
 
 body {
   background-color: white;
-  background-image: url('Images_CSS/Linedpaper.png');
+  background-image: url('Icons/Lined paper_12.png');
   background-size: 100% auto;
   background-repeat: repeat;
   background-position: center;
@@ -14,11 +14,11 @@ body {
   color: black;
   font-family: "Monaco", "Consolas";
   
-  cursor: url(Images_CSS/Mouse.png), auto;
+  cursor: url(Icons/Mouse.png), auto;
 }
 
 a:hover{
-  cursor: url(Images_CSS/Hand.png), pointer;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 #container {
@@ -91,13 +91,13 @@ a:hover{
 .pointer{
   width: 100%;
   min-height: 100%;
-  cursor: url(Images_CSS/Hand.png), pointer;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .image{
   width: 100%;
   min-height: 100%;
-  cursor: url(Images_CSS/Hand.png), pointer;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .image-container{
@@ -178,7 +178,7 @@ a:hover{
   border-radius: 50%;
   background: #ff0000;
   opacity: 0;
-  cursor: url(Images_CSS/Hand.png), pointer;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .arrow-btn{
@@ -189,7 +189,7 @@ a:hover{
   border-radius: 50%;
   border: none;
   background: none;
-  cursor: url(Images_CSS/Hand.png), pointer;
+  cursor: url(Icons/Hand.png), pointer;
   opacity: 0;
 }
 
