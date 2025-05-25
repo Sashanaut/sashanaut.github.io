@@ -173,10 +173,6 @@ a:hover{
   position: absolute;
   top: 15px;
   right: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #ff0000;
   opacity: 0;
   cursor: url(Icons/Hand.png), pointer;
 }
