@@ -11,7 +11,7 @@
 body {
   background-color: white;
   background-image: url('Icons/Lined paper_12.png');
-  background-size: 100% auto;
+  background-size: 100% auto, min 500px;
   background-repeat: repeat;
   background-position: center;
   padding: 0px;
@@ -60,7 +60,7 @@ a:hover{
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
-.menubtn a{
+.menubtn{
    width: 30px;
    margin-left: 30px;
    padding: 10px;
