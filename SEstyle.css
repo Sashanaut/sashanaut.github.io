@@ -63,18 +63,16 @@ a:hover{
 .menubtn{
    width: 25px;
    padding-right: 5px;
-   top: 3px;
 }
 
 .socials{
-   width: 100px;
-   /*margin-top: calc(100vh-600px);*/
-   margin-bottom: 30px;
+   width: 100%;
+   margin-top: calc(100vh-300px);
 }
 
 .socials a{
   width: 30px;
-  padding: 3px;
+  padding: 7px;
   display: inline-block;
 }
 
@@ -254,7 +252,8 @@ h2{
 }
 
 h3{
-  margin-top: -5px;
-  font-family: "Lucida sans typewriter", "Lucida console";
-  font-weight: bold;
+   margin-top: -25px;
+   margin-left: 30px;
+   font-family: "Lucida sans typewriter", "Lucida console";
+   font-weight: bold;
 }
