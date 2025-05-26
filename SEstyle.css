@@ -68,7 +68,8 @@ a:hover{
 
 .socials{
    width: 100px;
-   margin-top: calc(90vh);
+   /*margin-top: calc(100vh-600px);*/
+   margin-bottom: 30px;
 }
 
 .socials a{
