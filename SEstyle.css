@@ -64,11 +64,15 @@ a:hover{
    width: 30px;
    padding-right: 5px;
 }
-   
+
+.socials{
+   width: 100px;
+   margin-top: calc(100vh-700px);
+}
+
 .socials a{
   width: 30px;
-  margin-top: calc(100vh - 600px);
-  padding: 7px;
+  padding: 5px;
   display: inline-block;
 }
 
@@ -193,8 +197,6 @@ a:hover{
 .arrow-btn{
    position: absolute;
    top: 50%;
-   left: 10px;
-   right: 10px;
    width: 40px;
    transform: translateY(-50%);
    padding: 10px;
@@ -205,9 +207,18 @@ a:hover{
    opacity: 0;
 }
 
+.left-arrow{
+   left: 10px;
+}
+
+.right-arrow{
+   right: 10px;
+}
+
 .arrow-btn:hover{
    background: rgba(0, 0, 0, 0.5);
    width: 50px;
+   height: 50px;
    border-radius: 100%;
 }
 
