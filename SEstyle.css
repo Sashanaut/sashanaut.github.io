@@ -67,12 +67,12 @@ a:hover{
 
 .socials{
    width: 100px;
-   margin-top: calc(100vh-700px);
+   margin-top: calc(90vh);
 }
 
 .socials a{
   width: 30px;
-  padding: 5px;
+  padding: 3px;
   display: inline-block;
 }
 
@@ -197,7 +197,7 @@ a:hover{
 .arrow-btn{
    position: absolute;
    top: 50%;
-   width: 40px;
+   width: 50px;
    transform: translateY(-50%);
    padding: 10px;
    border-radius: 50%;
