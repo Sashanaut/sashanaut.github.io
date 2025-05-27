@@ -197,6 +197,7 @@ a:hover{
 
 .close-btn:hover{
    background: rgba(0,0,0,0.5);
+   barder-radius: 50%;
 }
 
 .arrow-btn{
