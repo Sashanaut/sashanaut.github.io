@@ -67,13 +67,14 @@ a:hover{
 
 .socials{
    width: 100%;
-   margin-top: calc(100vh-200px);
+   padding-top: calc(100vh - 630px);
 }
 
 .socials a{
-  width: 30px;
-  padding: 5px;
-  display: inline-block;
+   width: 31px;
+   padding: 5px;
+   padding-bottom: 0px;
+   display: inline-block;
 }
 
 
