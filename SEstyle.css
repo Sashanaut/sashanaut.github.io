@@ -188,6 +188,7 @@ a:hover{
 }
 
 .close-btn{
+   padding: 10px;
    position: absolute;
    width: 40px;
    height: 40px;
@@ -257,8 +258,7 @@ ul{
    align: center;
    padding: 20px;
    background: none;
-   border: 20px;
-   border-radius: 30%;
+   border-radius: 20%;
 }
 
 .email:hover{
@@ -294,5 +294,5 @@ h4{
 }
 
 a{
-   color: hex33FFE0;
+   color: #33FFE0;
 }
