@@ -248,6 +248,10 @@ li{
    list-style: "⁂";
 }
 
+ul{
+   list-style: "⁂";
+}
+
 .email{
    align: center;
    padding: 50px;
