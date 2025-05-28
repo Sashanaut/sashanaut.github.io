@@ -190,6 +190,7 @@ a:hover{
 .close-btn{
    position: absolute;
    width: 40px;
+   height: 40px;
    top: 15px;
    right: 20px;
    opacity: 0;
@@ -254,13 +255,13 @@ ul{
 
 .email{
    align: center;
-   padding: 50px;
+   padding: 20px;
    background: none;
-   border: 50px;
+   border: 20px;
    border-radius: 30%;
 }
 
-.email hover{
+.email:hover{
    background: rgba(0,0,0,0.5);
 }
 
@@ -288,7 +289,7 @@ h3{
 h4{
   text-align: center;
   font-family: "Monaco", "Consolas";
-   font-size: 50px;
+   font-size: 30px;
   font-weight: bold;
 }
 
