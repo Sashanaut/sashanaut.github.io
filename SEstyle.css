@@ -250,8 +250,14 @@ li{
 
 .email{
    align: center;
-   background: rgba(0,0,0,0.5);
+   padding: 50px;
+   background: none;
+   border: 50px;
    border-radius: 30%;
+}
+
+.email hover{
+   background: rgba(0,0,0,0.5);
 }
 
 /*- TEXT */
@@ -273,4 +279,14 @@ h3{
    margin-left: 30px;
    font-family: "Lucida sans typewriter", "Lucida console";
    font-weight: bold;
+}
+
+h4{
+  text-align: center;
+  font-family: "Lucida sans typewriter", "Lucida console";
+  font-weight: bold;
+}
+
+a{
+   color: hex33FFE0;
 }
