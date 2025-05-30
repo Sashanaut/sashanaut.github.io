@@ -60,8 +60,8 @@ a:hover{
   overflow: auto;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 
-   border: #10CCCCCC;
-   border-width: 2px
+   border: #10CCCC;
+   border-width: 5px
    border-style: outset;
 }
 
@@ -102,7 +102,7 @@ a:hover{
   transform: rotate(0deg);
 
    border-color: none;
-   border-width: 0px;
+   border-width: 5px;
    border-style: none;
 }
 
