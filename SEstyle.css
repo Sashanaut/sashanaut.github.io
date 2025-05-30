@@ -248,6 +248,9 @@ a:hover{
 
 #footer{
   margin: 100px 0px;
+   padding: 10px;
+   background-color: black;
+   border-radius: 5px;
 }
 
 /*- CONTACT -*/
@@ -265,11 +268,13 @@ ul{
    height: 50px;
    width: 200px;
    background: none;
-   border-radius: 20%;
+   border-radius: 10px;
+   text-color: black
 }
 
 .email:hover{
-   background: rgba(0,0,0,0.5);
+   text-color: #10DDDD;
+   background: rgba(0,0,0,1);
 }
 
 /*- TEXT */
