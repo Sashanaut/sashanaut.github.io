@@ -10,7 +10,7 @@
 */
 
 body {
-  background-color: white;
+  background-color: none;
   background-image: url('Icons/Lined paper_12.png');
   background-size: 100% auto, min 500px;
   background-repeat: repeat;
@@ -19,7 +19,7 @@ body {
   margin: 0px;
   /*background-attachment: absolute;*/
   
-  color: #faffff;
+  color: pink;
   font-family: "Monaco", "Consolas";
   
   cursor: url(Icons/Mouse.png), auto;
@@ -49,8 +49,7 @@ a:hover{
 /*- SIDEBAR */
 
 #sidebar{
-  /*-background-color: #faffff;-*/
-   background-color: #404040;
+  background-color: #faffff;
   width: 150px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
@@ -91,7 +90,7 @@ a:hover{
 }
 
 .post{
-  background-color: #404040;
+  background-color: #faffff;
   padding: 50px;
   border-radius: 5px;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
@@ -295,7 +294,7 @@ h4{
 }
 
 a{
-   color: #10BBBA;
+   color: pink;
 }
 /*-
 
