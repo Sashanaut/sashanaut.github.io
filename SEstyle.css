@@ -270,7 +270,7 @@ ul{
    align: center;
    height: 50px;
    width: 200px;
-   padding: 0px;
+   padding: 30px 40px;
    background: none;
    border-radius: 10px;
    text-color: black;
@@ -309,7 +309,7 @@ h4{
 }
 
 a{
-   color: #10AAAA;
+   color: #10CCCCCC;
 }
 /*-
 
