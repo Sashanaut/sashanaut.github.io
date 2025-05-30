@@ -19,7 +19,7 @@ body {
   margin: 0px;
   /*background-attachment: absolute;*/
   
-  color: pink;
+  color: black;
   font-family: "Monaco", "Consolas";
   
   cursor: url(Icons/Mouse.png), auto;
@@ -59,6 +59,9 @@ a:hover{
   border-radius: 5px;
   overflow: auto;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+
+   border: black;
+   border-style: dashed;
 }
 
 .menubtn{
@@ -96,6 +99,10 @@ a:hover{
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
   margin-bottom: 5em;
   transform: rotate(0deg);
+
+   border-color: #10EEEE;
+   border-width: 20px;
+   border-style: dashed;
 }
 
 /*- MEDIA */
