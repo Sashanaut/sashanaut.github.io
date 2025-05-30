@@ -247,11 +247,13 @@ a:hover{
 /*- FOOTER */
 
 #footer{
-  margin: 100px 0px;
-   width: 100px;
-   padding: 50px;
+   margin: 100px 0px;
+   text-align: center;
+   padding: 10px 20px;
+   width: 20%;
    background-color: white;
    border-radius: 5px;
+   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 /*- CONTACT -*/
@@ -268,7 +270,7 @@ ul{
    align: center;
    height: 50px;
    width: 200px;
-   padding: 50px;
+   padding: 0px;
    background: none;
    border-radius: 10px;
    text-color: black;
