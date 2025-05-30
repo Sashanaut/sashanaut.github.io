@@ -60,8 +60,8 @@ a:hover{
   overflow: auto;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 
-   border: black;
-   border-style: dashed;
+   border: none;
+   border-style: none;
 }
 
 .menubtn{
@@ -100,9 +100,9 @@ a:hover{
   margin-bottom: 5em;
   transform: rotate(0deg);
 
-   border-color: #10EEEE;
-   border-width: 20px;
-   border-style: dashed;
+   border-color: none;
+   border-width: 0px;
+   border-style: none;
 }
 
 /*- MEDIA */
@@ -301,7 +301,7 @@ h4{
 }
 
 a{
-   color: pink;
+   color: #10AAAA;
 }
 /*-
 
