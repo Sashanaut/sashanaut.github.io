@@ -268,14 +268,14 @@ ul{
    align: center;
    height: 50px;
    width: 200px;
+   padding: 50px;
    background: none;
    border-radius: 10px;
-   text-color: black
+   text-color: black;
 }
 
 .email:hover{
-   text-color: #10DDDD;
-   background: rgba(0,0,0,1);
+   background: #10EEEE88;
 }
 
 /*- TEXT */
