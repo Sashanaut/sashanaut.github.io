@@ -19,7 +19,7 @@ body {
   margin: 0px;
   /*background-attachment: absolute;*/
   
-  color: black;
+  color: #faffff;
   font-family: "Monaco", "Consolas";
   
   cursor: url(Icons/Mouse.png), auto;
@@ -50,6 +50,7 @@ a:hover{
 
 #sidebar{
   /*-background-color: #faffff;-*/
+   background-color: #404040;
   width: 150px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
@@ -90,7 +91,7 @@ a:hover{
 }
 
 .post{
-  background-color: #faffff;
+  background-color: #404040;
   padding: 50px;
   border-radius: 5px;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
@@ -293,9 +294,10 @@ h4{
   font-weight: bold;
 }
 
-/*-a{
+a{
    color: #10BBBA;
-}-*/
+}
+/*-
 
 .red{
   background-color: #FFA0EE;
@@ -307,4 +309,4 @@ h4{
 
 .yellow{
   background-color: lightyellow;
-}
+}-*/
