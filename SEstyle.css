@@ -60,7 +60,6 @@ a:hover{
   overflow: auto;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 
-   border: #10CCCC;
    border-width: 5px;
    border-style: outset;
 }
@@ -101,7 +100,6 @@ a:hover{
   margin-bottom: 5em;
   transform: rotate(0deg);
 
-   border-color: none;
    border-width: 5px;
    border-style: none;
 }
@@ -312,16 +310,16 @@ h4{
 a{
    color: #10CCCCCC;
 }
-/*-
 
 .red{
-  background-color: #FFA0EE;
+   border: #FF90EE;
 }
 
 .blue{
-  background-color: #5EF0EE;
+    border: #10CCCC;
 }
 
 .yellow{
-  background-color: lightyellow;
-}-*/
+    border: #FFE020;
+
+}
