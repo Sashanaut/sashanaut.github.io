@@ -61,7 +61,7 @@ a:hover{
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 
    border: #10CCCC;
-   border-width: 5px
+   border-width: 5px;
    border-style: outset;
 }
 
