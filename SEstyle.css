@@ -71,12 +71,12 @@ a:hover{
 
 .socials{
    width: 100%;
-   padding-top: calc(100vh - 630px);
+   padding-top: calc(100vh - 655px);
 }
 
 .socials a{
-   width: 31px;
-   padding: 5px;
+   width: 38px;
+   padding: 3px;
    padding-bottom: 0px;
    display: inline-block;
 }
