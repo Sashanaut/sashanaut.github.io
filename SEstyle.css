@@ -99,9 +99,6 @@ a:hover{
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
   margin-bottom: 5em;
   transform: rotate(0deg);
-
-   border-width: 5px;
-   border-style: none;
 }
 
 /*- MEDIA */
@@ -309,14 +306,20 @@ h4{
 
 a{
    color: #10CCCCCC;
+   border-width: 5px;
+   border-style: inset;
 }
 
 .red{
    border: #FF90EE;
+   border-width: 5px;
+   border-style: inset;
 }
 
 .blue{
-    border: #10CCCC;
+   border: #10CCCC;
+   border-width: 5px;
+   border-style: inset;
 }
 
 .yellow{
