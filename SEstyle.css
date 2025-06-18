@@ -275,6 +275,11 @@ ul{
 
 /*- TEXT */
 
+@font-face{
+   font-family: 'Cosmina';
+   src: "cosmina.ttf";
+}
+
 h1{
   text-align: center;
   font-family: "Cosmina.ttf", "Lucida sans typewriter", "Lucida console";
