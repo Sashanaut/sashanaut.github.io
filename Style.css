@@ -51,7 +51,7 @@ a:hover{
 #sidebar{
   background-color: #C8C8C8;
    border: 2px outset white;
-  width: 180px;
+  width: 170px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
   top: 50px;
@@ -61,22 +61,23 @@ a:hover{
   box-shadow: 6px 6px 0px black;
 }
 
-.sidebar h2{
+.sidebar-header{
   border: 1px solid white;
   background-image: linear-gradient(to right, #0000ac , #262A3E);
-  height: 22px;
+  height: 25px;
   padding: 5px;
   line-height: 28px;
 }
 
 .sidebar-box{
-  border: 1px solid black;
-  padding: 5px;
+   border: 1px solid black;
+   padding: 5px;
+   margin-bottom: 0px;
 }
 
 .menubtn{
    border: 1px outset white;
-   height: 20px;
+   height: 25px;
    padding: 3px, 0px;
    line-height: 20px;
    overflow: clip;
@@ -100,9 +101,9 @@ a:hover{
 
 .socials a{
    width: 30px;
-  height: 30px;
+   height: 30px;
    padding: 5px;
-  padding-bottom: 3px;
+   padding-bottom: 3px;
    display: inline-block;
    border: 1px outset white;
 }
@@ -123,24 +124,24 @@ a:hover{
 }
 
 .post{
-  background-color: #C8C8C8;
+   background-color: #C8C8C8;
    border: 2px outset white;
-  padding: 0px, 20px;
-  box-shadow: 6px 6px 0px black;
-  margin-bottom: 5em;
+   padding: 0px, 20px;
+   box-shadow: 6px 6px 0px black;
+   margin-bottom: 5em;
 }
 
 .post h2{
-  border: 1px solid white;
-  background-image: linear-gradient(to right, #0000ac , #262A3E);
-  height: 25px;
-  padding: 5px;
-  line-height: 28px;
+   border: 1px solid white;
+   background-image: linear-gradient(to right, #0000ac , #262A3E);
+   height: 25px;
+   padding: 5px;
+   line-height: 28px;
 }
 
 .post-box{
-  border: 1px solid black;
-  padding: 5px;
+   border: 1px solid black;
+   padding: 3px;
 }
 
 /*- MEDIA */
@@ -166,7 +167,7 @@ a:hover{
 
 .image-container{
   width:700px;
-  margin: 0px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -285,7 +286,7 @@ a:hover{
 /*- FOOTER */
 
 #footer{
-   margin: 100px 0px;
+   margin: 100px 0px 96px;
    text-align: center;
    padding: 10px 20px;
    width: 20%;
@@ -334,7 +335,7 @@ h2{
    font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
    font-weight: bold;
    color: white;
-   margin-top: 0px;
+   margin: 0px;
 }
 
 /*-h3{
