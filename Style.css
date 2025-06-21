@@ -77,25 +77,25 @@ a:hover{
 .menubtn{
    border: 1px outset white;
    height: 20px;
-   padding: 3px;
+   padding: 3px, 0px;
    line-height: 20px;
+   overflow: clip;
 }
 
 .menubtn:hover{
    border: 1px inset white;
 }
 
-#nav img{
+.menubtn img{
    width: 25px;
-   padding-right: 0px;
    display: inline-block;
-   margin-bottom: -8px;
+   margin-bottom: -5px;
 }
 
 .socials{
    width: 100%;
    padding-top: calc(100vh - 645px);
-  padding-left: 3px;
+   padding-left: 3px;
 }
 
 .socials a{
