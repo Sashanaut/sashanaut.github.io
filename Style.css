@@ -57,7 +57,7 @@ a:hover{
   top: 50px;
   position: fixed;
   padding: 0px;
-  overflow: auto;
+  overflow: none;
   box-shadow: 6px 6px 0px black;
 }
 
@@ -74,18 +74,21 @@ a:hover{
   padding: 5px;
 }
 
-.nav a{
+#nav a{
    border: 1px outset white;
+   height: 20px;
+   padding: 3px;
+   line-height: 20px;
 }
 
-.nav a:hover{
+#nav a:hover{
    border: 1px inset white;
 }
 
-.menubtn{
+/*-.menubtn{
    width: 25px;
    padding-right: 5px;
-}
+}*/
 
 .socials{
    width: 100%;
