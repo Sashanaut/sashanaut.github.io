@@ -74,14 +74,17 @@ a:hover{
   padding: 5px;
 }
 
-.menubtn{
+.nav a{
    border: 1px outset white;
-   width: 25px;
-   padding-right: 5px;
 }
 
-.menubtn:click{
+.nav a:click{
    border: 1px inset white;
+}
+
+.menubtn{
+   width: 25px;
+   padding-right: 5px;
 }
 
 .socials{
@@ -90,10 +93,16 @@ a:hover{
 }
 
 .socials a{
+   align: center;
    width: 38px;
    padding: 3px;
    padding-bottom: 0px;
    display: inline-block;
+   border: 1px outset white;
+}
+
+.socials a:click{
+   border: 1px inset white;
 }
 
 
@@ -318,7 +327,6 @@ h1{
 }
 
 h2{
-  margin-top: 0%;
   font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
   font-weight: bold;
 }
