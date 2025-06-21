@@ -50,6 +50,7 @@ a:hover{
 
 #sidebar{
   background-color: #C8C8C8;
+   border: 2px outset white;
   width: 150px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
@@ -108,6 +109,7 @@ a:hover{
 
 .post{
   background-color: #C8C8C8;
+   border: 2px outset white;
   padding: 0px;
   box-shadow: 6px 6px 0px black;
   margin-bottom: 5em;
@@ -338,7 +340,7 @@ h4{
 a{
    color: #10CCCCCC;
 }
-
+/*-
 .red{
    border: #FF90EE;
    border-width: 5px;
@@ -355,4 +357,4 @@ a{
    border: #FFE020;
    border-width: 5px;
    border-style: inset;
-}
+} */
