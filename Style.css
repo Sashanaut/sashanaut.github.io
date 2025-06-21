@@ -74,21 +74,22 @@ a:hover{
   padding: 5px;
 }
 
-#nav a{
+.menubtn{
    border: 1px outset white;
    height: 20px;
    padding: 3px;
    line-height: 20px;
 }
 
-#nav a:hover{
+.menubtn:hover{
    border: 1px inset white;
 }
 
-.menubtn{
+#nav img{
    width: 25px;
    padding-right: 0px;
    display: inline-block;
+   margin-bottom: -8px;
 }
 
 .socials{
