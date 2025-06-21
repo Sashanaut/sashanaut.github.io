@@ -283,10 +283,10 @@ a:hover{
    margin: 100px 0px;
    text-align: center;
    padding: 10px 20px;
-   width: 20%;
-   background-color: white;
-   border-radius: 5px;
-   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+   width: 15%;
+   background-color: #C8C8C8;
+   border: 2px outset white;
+   box-shadow: 6px 6px 0px black;
 }
 
 /*- CONTACT -*/
