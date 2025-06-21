@@ -85,10 +85,11 @@ a:hover{
    border: 1px inset white;
 }
 
-/*-.menubtn{
+.menubtn{
    width: 25px;
-   padding-right: 5px;
-}*/
+   padding-right: 0px;
+   display: inline-block;
+}
 
 .socials{
    width: 100%;
@@ -128,7 +129,7 @@ a:hover{
   margin-bottom: 5em;
 }
 
-.post_header{
+.post h2{
   border: 1px solid white;
   background-image: linear-gradient(to right, #0000ac , #262A3E);
   height: 20px;
