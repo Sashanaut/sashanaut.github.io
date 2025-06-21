@@ -77,8 +77,8 @@ a:hover{
 
 .menubtn{
    border: 1px outset white;
-   height: 25px;
-   padding: 3px, 0px;
+   width: 100%;
+   padding: 3px;
    line-height: 20px;
    overflow: clip;
 }
