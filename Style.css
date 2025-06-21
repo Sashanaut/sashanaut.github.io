@@ -49,21 +49,38 @@ a:hover{
 /*- SIDEBAR */
 
 #sidebar{
-  background-color: #faffff;
+  background-color: #C8C8C8;
   width: 150px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
   top: 50px;
   position: fixed;
-  padding: 25px;
-  border-radius: 5px;
+  padding: 0px;
   overflow: auto;
-  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 6px 6px 0px black;
+}
+
+.sidebar_header{
+  border: 1px solid white;
+  background-image: linear-gradient(to right, #0000ac , #262A3E);
+  height: 20px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.sidebar_box{
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .menubtn{
+   border: 1px outset white;
    width: 25px;
    padding-right: 5px;
+}
+
+.menubtn:click{
+   border: 1px inset white;
 }
 
 .socials{
