@@ -51,7 +51,7 @@ a:hover{
 #sidebar{
   background-color: #C8C8C8;
    border: 2px outset white;
-  width: 150px;
+  width: 180px;
   height: calc(100vh - 150px);
   left: calc(50vw - 600px);
   top: 50px;
@@ -61,12 +61,12 @@ a:hover{
   box-shadow: 6px 6px 0px black;
 }
 
-.sidebar_header{
+.sidebar h2{
   border: 1px solid white;
   background-image: linear-gradient(to right, #0000ac , #262A3E);
-  height: 20px;
+  height: 22px;
   padding: 5px;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 .sidebar_box{
@@ -125,7 +125,7 @@ a:hover{
 .post{
   background-color: #C8C8C8;
    border: 2px outset white;
-  padding: 0px, 30px;
+  padding: 0px, 20px;
   box-shadow: 6px 6px 0px black;
   margin-bottom: 5em;
 }
@@ -133,9 +133,9 @@ a:hover{
 .post h2{
   border: 1px solid white;
   background-image: linear-gradient(to right, #0000ac , #262A3E);
-  height: 20px;
+  height: 25px;
   padding: 5px;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 .post_box{
