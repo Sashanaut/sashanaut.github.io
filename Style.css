@@ -78,7 +78,7 @@ a:hover{
    border: 1px outset white;
 }
 
-.nav a:click{
+.nav a:hover{
    border: 1px inset white;
 }
 
@@ -89,19 +89,20 @@ a:hover{
 
 .socials{
    width: 100%;
-   padding-top: calc(100vh - 655px);
+   padding-top: calc(100vh - 645px);
+  padding-left: 3px;
 }
 
 .socials a{
-   align: center;
-   width: 38px;
-   padding: 3px;
-   padding-bottom: 0px;
+   width: 30px;
+  height: 30px;
+   padding: 5px;
+  padding-bottom: 3px;
    display: inline-block;
    border: 1px outset white;
 }
 
-.socials a:click{
+.socials a:hover{
    border: 1px inset white;
 }
 
