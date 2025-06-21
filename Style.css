@@ -123,7 +123,7 @@ a:hover{
 .post{
   background-color: #C8C8C8;
    border: 2px outset white;
-  padding: 0px;
+  padding: 0px, 30px;
   box-shadow: 6px 6px 0px black;
   margin-bottom: 5em;
 }
@@ -237,13 +237,13 @@ a:hover{
    height: 40px;
    top: 15px;
    right: 20px;
-   opacity: 0;
+   color: #C8C8C8;
+   border: 1px outwet white;
    cursor: url(Icons/Hand.png), pointer;
 }
 
 .close-btn:hover{
-   background: rgba(0,0,0,0.5);
-   border-radius: 50%;
+   border: 1px inset white;
 }
 
 .arrow-btn{
@@ -253,10 +253,9 @@ a:hover{
    transform: translateY(-50%);
    padding: 10px;
    border-radius: 50%;
-   border: none;
-   background: none;
+   color: #C8C8C8;
+   border: 1px outwet white;
    cursor: url(Icons/Hand.png), pointer;
-   opacity: 0;
 }
 
 .left-arrow{
@@ -268,8 +267,7 @@ a:hover{
 }
 
 .arrow-btn:hover{
-   background: rgba(0, 0, 0, 0.5);
-   border-radius: 50%;
+   border: 1px inset white;
 }
 
 .large-image{
@@ -287,7 +285,7 @@ a:hover{
    margin: 100px 0px;
    text-align: center;
    padding: 10px 20px;
-   width: 15%;
+   width: 20%;
    background-color: #C8C8C8;
    border: 2px outset white;
    box-shadow: 6px 6px 0px black;
@@ -308,13 +306,12 @@ ul{
    height: 50px;
    width: 200px;
    padding: 30px 40px;
-   background: none;
-   border-radius: 10px;
+   border: 1px outset white;
    text-color: black;
 }
 
 .email:hover{
-   background: #10EEEE88;
+   border: 1px inset white;
 }
 
 /*- TEXT */
@@ -325,32 +322,34 @@ ul{
 }
 
 h1{
-  text-align: center;
-  font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
-  font-weight: bold;
+   text-align: center;
+   font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
+   font-weight: bold;
 }
 
 h2{
-  font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
-  font-weight: bold;
+   font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
+   font-weight: bold;
+   color: white;
+   margin-top: 0px;
 }
 
-h3{
+/*-h3{
    margin-top: -30px;
    margin-left: 30px;
    font-family: "Monaco", "Consolas";
    font-weight: bold;
-}
+}*/
 
 h4{
-  text-align: center;
-  font-family: "Monaco", "Consolas";
+   text-align: center;
+   font-family: "Monaco", "Consolas";
    font-size: 30px;
-  font-weight: bold;
+   font-weight: bold;
 }
 
 a{
-   color: #10CCCCCC;
+   color: #10CCCC;
 }
 /*-
 .red{
