@@ -69,7 +69,7 @@ a:hover{
   line-height: 28px;
 }
 
-.sidebar_box{
+.sidebar-box{
   border: 1px solid black;
   padding: 5px;
 }
@@ -138,7 +138,7 @@ a:hover{
   line-height: 28px;
 }
 
-.post_box{
+.post-box{
   border: 1px solid black;
   padding: 5px;
 }
@@ -149,6 +149,7 @@ a:hover{
   width: 700px;
   height: 393px;
   border: 1px inset white;
+   margin: auto;
 }
 
 .pointer{
