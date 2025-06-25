@@ -29,7 +29,7 @@ a:hover{
    cursor: url(Icons/Hand.png), pointer;
 }
 
-a:button{
+button:hover{
    cursor: url(Icons/Hand.png), pointer;
 }
 
@@ -320,6 +320,7 @@ a:button{
    height: auto;
    width: auto;
    border: 1px inset white;
+   padding: 5px;
    opacity: 0;
 }
 
