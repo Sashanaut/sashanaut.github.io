@@ -314,12 +314,13 @@ a:button{
 }
 
 .large-image{
-  margin-top: 10%;
-  max-height: 80%;
-  max-width: 80%;
-  height: auto;
-  width: auto;
-  opacity: 0;
+   margin-top: 10%;
+   max-height: 80%;
+   max-width: 80%;
+   height: auto;
+   width: auto;
+   border: 1px inset white;
+   opacity: 0;
 }
 
 /*- FOOTER */
