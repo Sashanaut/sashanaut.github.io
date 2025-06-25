@@ -79,8 +79,10 @@ a:hover{
 
 .menubtn{
    border: 1px outset white;
+   background-color: #C8C8C8;
    height: 30px;
-   padding-left: 3px;
+   width: 100%;
+   padding: 0px 3px 3px 3px;
    overflow: clip;
    margin-top: 5px;
    margin-bottom: 5px;
@@ -92,7 +94,7 @@ a:hover{
 }
 
 .menubtn img{
-   width: 25px;
+   height: 25px;
    display: inline-block;
    margin-top: 3px;
    margin-bottom: -8px;
@@ -305,9 +307,8 @@ a:hover{
    right: 10px;
 }
 
-
 .large-image{
-  margin-top: 5%;
+  margin-top: 10%;
   max-height: 80%;
   max-width: 80%;
   height: auto;
@@ -368,6 +369,7 @@ h2{
    font-weight: bold;
    color: white;
    margin: 0px;
+   text-align: left;
 }
 
 /*-h3{
