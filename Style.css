@@ -49,16 +49,17 @@ a:hover{
 /*- SIDEBAR */
 
 #sidebar{
-  background-color: #C8C8C8;
+   background-color: #C8C8C8;
    border: 2px outset white;
-  width: 170px;
-  height: calc(100vh - 150px);
-  left: calc(50vw - 600px);
-  top: 50px;
-  position: fixed;
-  padding: 0px;
-  overflow: none;
-  box-shadow: 6px 6px 0px black;
+   width: 170px;
+   height: calc(100vh - 150px);
+   min-height: 472px;
+   left: calc(50vw - 600px);
+   top: 50px;
+   position: fixed;
+   padding: 0px;
+   overflow: none;
+   box-shadow: 6px 6px 0px black;
 }
 
 .sidebar-header{
@@ -73,12 +74,13 @@ a:hover{
    border: 1px solid black;
    padding: 5px;
    height: calc(100vh - 199px);
+   min-height: 423px;
 }
 
 .menubtn{
    border: 1px outset white;
    height: 30px;
-   padding: 3px;
+   padding-left: 3px;
    overflow: clip;
    margin-top: 5px;
    margin-bottom: 5px;
@@ -98,7 +100,7 @@ a:hover{
 
 .socials{
    width: 100%;
-   padding-top: calc(100vh - 645px);
+   padding-top: calc(100vh - 625px);
    padding-left: 3px;
 }
 
@@ -186,6 +188,26 @@ a:hover{
 }
 
 /*- POPUP */
+/*-.post{
+   background-color: #C8C8C8;
+   border: 2px outset white;
+   padding: 0px, 20px;
+   box-shadow: 6px 6px 0px black;
+   margin-bottom: 5em;
+}
+
+.post h2{
+   border: 1px solid white;
+   background-image: linear-gradient(to right, #0000ac , #262A3E);
+   height: 25px;
+   padding: 5px;
+   line-height: 28px;
+}
+
+.post-box{
+   border: 1px solid black;
+   padding: 3px;
+}*/
 
 .popup{
   position: fixed;
@@ -196,13 +218,14 @@ a:hover{
   max-width: 2100px;
   height: 90vh;
   max-height: 1400px;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.75);
+  background-color: #C8C8C8;
   display: flex;
   justify-content: center;
   -items: center;
   z-index: 5;
   overflow: hidden;
+   border: 2px outset white;
+   drop-shadow: 6px 6px 0px black;
   opacity: 0;
 }
 
@@ -226,11 +249,15 @@ a:hover{
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 30px;
   background: none;
   text-align: center;
   line-height: 50px;
   font-weight: 300;
+   border: 1px solid white;
+   background-image: linear-gradient(to right, #0000ac , #262A3E);
+   padding: 5px;
+   line-height: 28px;
   opacity: 0;
 }
 
@@ -241,11 +268,11 @@ a:hover{
 .close-btn{
    padding: 10px;
    position: absolute;
-   width: 40px;
-   height: 40px;
-   top: 15px;
-   right: 20px;
-   color: #C8C8C8;
+   width: 25px;
+   height: 25px;
+   top: 2px;
+   right: 2px;
+   background-color: #C8C8C8;
    border: 1px outwet white;
    cursor: url(Icons/Hand.png), pointer;
 }
@@ -260,10 +287,13 @@ a:hover{
    width: 60px;
    transform: translateY(-50%);
    padding: 10px;
-   border-radius: 50%;
-   color: #C8C8C8;
+   background-color: #C8C8C8;
    border: 1px outwet white;
    cursor: url(Icons/Hand.png), pointer;
+}
+
+.arrow-btn:hover{
+   border: 1px inset white;
 }
 
 .left-arrow{
@@ -274,9 +304,6 @@ a:hover{
    right: 10px;
 }
 
-.arrow-btn:hover{
-   border: 1px inset white;
-}
 
 .large-image{
   margin-top: 5%;
