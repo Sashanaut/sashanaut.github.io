@@ -29,6 +29,10 @@ a:hover{
    cursor: url(Icons/Hand.png), pointer;
 }
 
+a:button{
+   cursor: url(Icons/Hand.png), pointer;
+}
+
 #container {
   width: 800px;
   margin-left: calc(50vw - 350px);
