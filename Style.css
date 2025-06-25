@@ -270,11 +270,12 @@ a:hover{
    position: absolute;
    width: 25px;
    height: 25px;
-   top: 2px;
-   right: 2px;
+   top: 5px;
+   right: 15px;
    background-color: #C8C8C8;
-   border: 1px outwet white;
+   border: 1px outset white;
    cursor: url(Icons/Hand.png), pointer;
+   line-height: 25px;
 }
 
 .close-btn:hover{
