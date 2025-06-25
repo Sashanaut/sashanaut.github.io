@@ -222,10 +222,10 @@ button:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: calc(500px + 50%);
-  max-width: 1800px;
+  width: 80%;
+  max-width: 1500px;
   height: 90vh;
-  max-height: 1400px;
+  max-height: 1500px;
   background-color: #C8C8C8;
   display: flex;
   justify-content: center;
@@ -314,7 +314,7 @@ button:hover{
 }
 
 .large-image{
-   margin-top: 5%;
+   margin-top: auto;
    max-height: 80%;
    max-width: 80%;
    height: auto;
