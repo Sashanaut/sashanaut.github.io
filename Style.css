@@ -96,7 +96,7 @@ button:hover{
 
 .menubtn:hover{
    border: 1px inset white;
-   line-height: 31px;
+   line-height: 1px;
 }
 
 .menubtn img{
@@ -123,7 +123,7 @@ button:hover{
 
 .socials a:hover{
    border: 1px inset white;
-   line-height: 31px;
+   line-height: 1px;
 }
 
 
@@ -314,7 +314,7 @@ button:hover{
 }
 
 .large-image{
-   margin-top: auto;
+   margin: auto;
    max-height: 80%;
    max-width: 80%;
    height: auto;
