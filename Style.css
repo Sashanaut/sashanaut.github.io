@@ -327,13 +327,17 @@ button:hover{
 /*- FOOTER */
 
 #footer{
-   margin: 50px 0px;
+   margin: 50px 0px 95px;
    text-align: center;
    padding: 10px 20px;
    width: 20%;
    background-color: #C8C8C8;
    border: 2px outset white;
    box-shadow: 6px 6px 0px black;
+}
+
+#footer:hover{
+   border: 2px inset white;
 }
 
 /*- CONTACT -*/
