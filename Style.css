@@ -80,12 +80,14 @@ a:hover{
 .menubtn{
    border: 1px outset white;
    background-color: #C8C8C8;
-   height: 30px;
+   height: 33px;
    width: 100%;
-   padding: 0px 3px 3px 3px;
+   padding: 0px 3px 5px 3px;
    overflow: clip;
    margin-top: 5px;
    margin-bottom: 5px;
+   font-size-adjust: .6;
+   text-align: left;
 }
 
 .menubtn:hover{
@@ -102,7 +104,7 @@ a:hover{
 
 .socials{
    width: 100%;
-   padding-top: calc(100vh - 595px);
+   padding-top: calc(100vh - 625px);
    padding-left: 3px;
 }
 
