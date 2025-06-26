@@ -377,18 +377,12 @@ h1{
 }
 
 h2{
-   font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
+   font-family: "Rockwell extra bold", "Courier new";
    color: white;
    margin: 0px;
    text-align: left;
 }
 
-/*-h3{
-   margin-top: -30px;
-   margin-left: 30px;
-   font-family: "Monaco", "Consolas";
-   font-weight: bold;
-}*/
 span{
    font-family: "Monaco", "Consolas";
    font-weight: bold;
@@ -405,21 +399,3 @@ h4{
 a{
    color: #10CCCC;
 }
-/*-
-.red{
-   border: #FF90EE;
-   border-width: 5px;
-   border-style: inset;
-}
-
-.blue{
-   border: #10CCCC;
-   border-width: 5px;
-   border-style: inset;
-}
-
-.yellow{
-   border: #FFE020;
-   border-width: 5px;
-   border-style: inset;
-} */
