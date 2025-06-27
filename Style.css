@@ -356,7 +356,8 @@ ul{
    width: 200px;
    padding: 30px 40px;
    border: 1px outset white;
-   text-color: black;
+   text-color: #10CCCC;
+   font-size: 1.5em;
 }
 
 .email:hover{
