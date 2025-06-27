@@ -354,6 +354,11 @@ button:hover{
    src: "cosmina.ttf";
 }
 
+@font-face{
+   font-family: 'Cooperbits';
+   src: "CooperBits.ttf";
+}
+
 h1{
    text-align: center;
    font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
@@ -361,7 +366,7 @@ h1{
 }
 
 h2{
-   font-family: "Lucida sans typewriter", "Lucida console";
+   font-family: "Cooperbits", "Lucida sans typewriter", "Lucida console";
    color: white;
    margin: 0px;
    text-align: left;
