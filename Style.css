@@ -354,11 +354,6 @@ button:hover{
    src: "cosmina.ttf";
 }
 
-@font-face{
-   font-family: 'editundo';
-   src: "edunline.ttf";
-}
-
 h1{
    text-align: center;
    font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
@@ -366,7 +361,7 @@ h1{
 }
 
 h2{
-   font-family: "editundo", "Rockwell extra bold", "Courier new";
+   font-family: "Lucida sans typewriter", "Lucida console";
    color: white;
    margin: 0px;
    text-align: left;
