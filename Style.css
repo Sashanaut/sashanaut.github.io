@@ -341,7 +341,9 @@ button:hover{
 }
 
 .email img{
-   height: 30px;
+   margin-bottom: -8px;
+   margin-right: 1%;
+   margin-left: 0%;
 }
 
 /*- TEXT */
