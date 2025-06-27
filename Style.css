@@ -196,26 +196,6 @@ button:hover{
 }
 
 /*- POPUP */
-/*-.post{
-   background-color: #C8C8C8;
-   border: 2px outset white;
-   padding: 0px, 20px;
-   box-shadow: 6px 6px 0px black;
-   margin-bottom: 5em;
-}
-
-.post h2{
-   border: 1px solid white;
-   background-image: linear-gradient(to right, #0000ac , #262A3E);
-   height: 25px;
-   padding: 5px;
-   line-height: 28px;
-}
-
-.post-box{
-   border: 1px solid black;
-   padding: 3px;
-}*/
 
 .popup{
   position: fixed;
@@ -348,18 +328,20 @@ button:hover{
 */
 
 .email{
-   align: auto;
-   height: 50px;
-   width: 200px;
-   margin: 30px;
-   padding: 30px 40px;
+   height: 75px;
+   width: 90%;
+   margin: 5%;
    border: 1px outset white;
-   text-color: #10CCCC;
+   color: #10CCCC;
    font-size: 1.5em;
 }
 
 .email:hover{
    border: 1px inset white;
+}
+
+.email img{
+   height: 30px;
 }
 
 /*- TEXT */
