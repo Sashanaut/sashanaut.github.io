@@ -254,7 +254,6 @@ button:hover{
 }
 
 .close-btn{
-   padding: 1px;
    position: absolute;
    width: 25px;
    height: 25px;
@@ -263,7 +262,8 @@ button:hover{
    background-color: #C8C8C8;
    border: 1px outset white;
    cursor: url(Icons/Hand.png), pointer;
-   line-height: 25px;
+   font-size: 20px;
+   line-height: 26px;
 }
 
 .close-btn:hover{
