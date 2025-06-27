@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Sasha Espinosa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="SEstyle.css">
+    <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="Icons/Navicon23.png" type="image/gif">
     
   </head>
@@ -18,79 +18,86 @@
     </div>
 
     <!-- SIDEBAR -->
-  
-    <div id="sidebar">
-      <img src="Icons/Blep.jpg" width=100%>
-      <h1>Menu</h1>
+    
+    <div id="sidebar" class="blue">
+      <h2 class="sidebar-header">MENU</h2>
       
-      <nav id="nav">
-        <a href=index.html>
-          <img src="Icons/Home.png" class="menubtn">
-          <h3>Home</h3>
-        </a>
-        <a href=not_found.html>
-          <img src="Icons/Anim.png" class="menubtn">
-          <h3>Animation</h3>
-        </a>
-        <a href=not_found.html>
-          <img src="Icons/Comp.png" class="menubtn">
-          <h3>Compositing</h3>
-        </a>
-        <a href=not_found.html>
-          <img src="Icons/Personal.png" class="menubtn">
-          <h3>Personal Work</h3>
-        </a>
-        <a href=#Top>
-          <img src="Icons/Contact.png" class="menubtn">
-          <h3>Contact</h3>
-        </a>
-      </nav>
-      
-      <div class="socials">
-        <a href="https://instagram.com/sashanaut" title="Instagram"><img src="Icons/IG.png" width="100%"></a>
-        <a href="https://bsky.app/profile/sashanaut.bsky.social" title="Bluesky"><img src="Icons/BSKY.png" width="100%"></a>
-        <a href="https://www.youtube.com/sashanaut" title="YouTube"><img src="Icons/YT.png" width="100%"></a>
+      <div class="sidebar-box">
+        <img src="Icons/Blep.jpg" width=100%>
+        <nav id="nav">
+          
+          <a href=index.html>
+            <button class="menubtn">
+              <img src="Icons/Home.png">
+              <span>Home</span>
+            </button>
+          </a>
+          <a href=not_found.html>
+            <button class="menubtn">
+              <img src="Icons/Anim.png">
+              <span>Animation</span>
+            </button>
+          </a>
+          <a href=not_found.html>
+            <button class="menubtn">
+              <img src="Icons/Comp.png">
+              <span>Compositing</span>
+            </button>
+          </a>
+          <a href=not_found.html>
+            <button class="menubtn">
+              <img src="Icons/Personal.png">
+              <span>Personal Work</span>
+            </button>
+          </a>
+          <a href=#Top>
+            <button class="menubtn">
+              <img src="Icons/Contact.png">
+              <span>Contact</span>
+            </button>
+          </a>
+        </nav>
+        
+        <div class="socials">
+          <a href="https://instagram.com/sashanaut" title="Instagram"><img src="Icons/IG.png" width="100%"></a>
+          <a href="https://bsky.app/profile/sashanaut.bsky.social" title="Bluesky"><img src="Icons/BSKY.png" width="100%"></a>
+          <a href="https://www.youtube.com/sashanaut" title="YouTube"><img src="Icons/YT.png" width="100%"></a>
+        </div>
       </div>
     </div>
     
     <!-- MAIN GALLERY -->
 
     <div id="gallery">
+      
       <div class="post">
-        <h2 align="center">→ About Me ←⁂</h2>
-        <p>Animator, compositor, doodler.⁂</p>
-        <p>I'm an LA-based artist who has work many hats. I graduated from Dodge College of Film and Media Arts, and have a penchant for cartoonishness.
-        I also love experimenting with mixing media for a unique look, from traditional to 2D to VFX and even some 3D.</p>
-        <!-- <li>Past clients include:
-          <li>Lil Baby</li>
-          <li>Jelly Roll</li>
-          <li>Tink</li>
-          <li>Blink-182</li>
-          <li>Helluva Boss</li>
-          <li>Mystery Sklils</li>
-          <li>Lackadaisy</li>
-        </li> -->
+        <h2>About Me</h2>
+        <div class="post box">
+          <p>Animator, compositor, doodler.⁂</p>
+          <p>I'm an LA-based artist who has work many hats. I graduated from Dodge College of Film and Media Arts, and have a penchant for cartoonishness.
+          I also love experimenting with mixing media for a unique look, from traditional to 2D to VFX and even some 3D.</p>
+        </div>
       </div>
 
       <div class="post">
-        <h2 align="center">→ Past Clients ←</h2>
-          <div margin-top="50px" margin-right="0%">
-            <li>Lil Baby</li>
-            <li>Jelly Roll</li>
-          </div>
-          <div margin-top="50px" margin-right="33%">
-            <li>Blink-182</li>
-            <li>Helluva Boss</li>
-          </div>
-          <div margin-top="50px" margin-right="66%">
-            <li>Mystery Sklils</li>
-            <li>Lackadaisy</li>
-          </div>
+        <h2>Past Clients</h2>
+        <div class="post box">
+          <li>Lil Baby</li>
+          <li>Jelly Roll</li>
+          <a href="https://youtu.be/TOV9-kJsRvE?si=hO-lpxIo1J8Wxqci">Blink-182</a>
+          <li>Helluva Boss</li>
+          <li>Mystery Sklils</li>
+          <a href="https://youtu.be/vffu6FG4YP4?si=8psjvJirRtnjx4Xa">Lackadaisy</li>
+        </div>
       </div>
       
       <div class="post">
-        <h2 align="center">→ Contact Me ←</h2>
-        <h4><a class="email" href="mailto:sashajespinosa@gmail.com">sashajespinosa</a></h4>
+        <h2>Contact Me</h2>
+        <div class="post box">
+          <a>
+            <button class="email" href="mailto:sashajespinosa@gmail.com">sashajespinosa</button>
+          </a>
+        </div>
       </div>
       
     </div>
