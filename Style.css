@@ -342,18 +342,16 @@ button:hover{
 
 /*- CONTACT -*/
 
-li{
+/*-li{
    list-style: "⁂";
 }
-
-ul{
-   list-style: "⁂";
-}
+*/
 
 .email{
-   align: center;
+   align: auto;
    height: 50px;
    width: 200px;
+   margin: 30px;
    padding: 30px 40px;
    border: 1px outset white;
    text-color: #10CCCC;
