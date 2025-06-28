@@ -167,6 +167,11 @@ button:hover{
    margin: auto;
 }
 
+.post video{
+   height: 100%;
+   width: 100%;
+}
+
 .pointer{
   width: 100%;
   min-height: 100%;
