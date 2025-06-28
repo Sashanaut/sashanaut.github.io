@@ -161,15 +161,15 @@ button:hover{
 /*- MEDIA */
 
 .youtube{
-  width: 700px;
-  height: 393px;
-  border: 1px inset white;
+   width: 700px;
+   height: 393px;
+   border: 1px inset white;
    margin: auto;
+   padding: 5px;
 }
 
 .post video{
-   height: 100%;
-   width: 100%;
+   width: 31.5%;
 }
 
 .pointer{
