@@ -379,17 +379,21 @@ h2{
    text-align: left;
 }
 
+h4{
+   text-align: center;
+   font-family: "Monaco", "Consolas";
+   font-size: 30px;
+   font-weight: bold;
+}
+
 span{
    font-family: "Monaco", "Consolas";
    font-weight: bold;
    margin-left: -5;
 }
 
-h4{
-   text-align: center;
-   font-family: "Monaco", "Consolas";
-   font-size: 30px;
-   font-weight: bold;
+p{
+   margin-left: 1em;
 }
 
 a{
