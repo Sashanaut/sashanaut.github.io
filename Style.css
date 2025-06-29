@@ -339,7 +339,7 @@ button:hover{
    width: 90%;
    margin: 5%;
    border: 1px outset white;
-   color: #10CCCC;
+   color: #F20DB9;
    font-size: 1.5em;
 }
 
@@ -397,5 +397,5 @@ p{
 }
 
 a{
-   color: #10CCCC;
+   color: #F20DB9;
 }
