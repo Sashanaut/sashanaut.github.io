@@ -209,8 +209,8 @@ margin-right: 5%;
 }
 
 .image-container{
-  width:700px;
-  margin: auto;
+  margin-left: 5%;
+  margin-right: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
