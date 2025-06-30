@@ -34,7 +34,7 @@ button:hover{
 }
 
 #container {
-  width: 800px;
+  max-width: 800px;
   margin-left: calc(50vw - 350px);
 }
 /*50px 50px 50px calc(10vw + 300px);/
@@ -43,7 +43,7 @@ button:hover{
 
 #topbar{
   background-color: transparent;
-  width: 800px;
+  width: 100%;
   padding: 0px 0px;
   position: relative;
   left: 0px;
@@ -51,6 +51,12 @@ button:hover{
 }
 
 /*- SIDEBAR */
+
+@media (max-width: 1280px) {
+   #sidebar {
+      display: none;
+   }
+}
 
 #sidebar{
    background-color: #C8C8C8;
