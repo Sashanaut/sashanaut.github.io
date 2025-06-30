@@ -178,10 +178,10 @@ button:hover{
 /*- MEDIA */
 
 .youtube{
-   width: 700px;
    height: 393px;
    border: 1px inset white;
-   margin: auto;
+margin-left: 5%;
+margin-right: 5%;
    padding: 5px;
 }
 
