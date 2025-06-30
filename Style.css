@@ -154,6 +154,12 @@ button:hover{
   top: 50px;
 }
 
+@media (max-width: 1280px) {
+  .post {
+    margin: 5%;
+  }
+}
+
 .post{
    background-color: #C8C8C8;
    border: 2px outset white;
