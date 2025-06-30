@@ -184,11 +184,11 @@ button:hover{
 /*- MEDIA */
 
 .youtube{
-   height: 393px;
-   border: 1px inset white;
-margin-left: 5%;
-margin-right: 5%;
-   padding: 5px;
+  aspect-ratio: 16/9;
+  border: 1px inset white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
 }
 
 .post iframe{
