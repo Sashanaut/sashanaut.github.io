@@ -50,16 +50,40 @@ button:hover{
   }
 }
 
-/*- TOPBAR */
+/*- STARTBAR */
 
-#topbar{
-  background-color: transparent;
-  width: 100%;
-  padding: 0px 0px;
-  position: relative;
-  left: 0px;
-  top: 20px;
+@media (min-width: 1200px) {
+   #startbar {
+      display: none;
+   }
 }
+#startbar{
+   background-color: #C8C8C8;
+   border: 2px outset white;
+   width: 100%;
+   height: 50px;
+   position: fixed;
+   padding: 0px;
+   overflow: none;
+   box-shadow: 6px 6px 0px black;
+}
+
+.startbtn{
+   border: 1px outset white;
+   background-color: #C8C8C8;
+   height: 33px;
+   width: 30%;
+   padding: 5px;
+   overflow: clip;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size-adjust: .6;
+   text-align: left;
+}
+
+.sitename{
+   width: 60%;
+   padding: 5px;
 
 /*- SIDEBAR */
 
@@ -143,6 +167,16 @@ button:hover{
    line-height: 1px;
 }
 
+/*- TOPBAR */
+
+#topbar{
+  background-color: transparent;
+  width: 100%;
+  padding: 0px 0px;
+  position: relative;
+  left: 0px;
+  top: 20px;
+}
 
 /*- MAIN */
 
