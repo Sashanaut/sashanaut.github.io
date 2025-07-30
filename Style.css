@@ -90,6 +90,13 @@ button:hover{
    margin-bottom: -4px;
 }
 
+.divider{
+   margin: 0px 3px 0px 3px;
+   height: 90%;
+   width: 0px;
+   border: 1px inset white;
+}
+
 .sitename{
    width: 200px;
    margin-bottom: -4px;
@@ -103,7 +110,8 @@ button:hover{
       display: none;
    }
    #topbar {
-      margin: 30px;
+      max-width: 90%;
+      margin: 5%;
    }
 }
 
