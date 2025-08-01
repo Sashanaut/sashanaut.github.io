@@ -1,10 +1,11 @@
 /* TABLE OF CONTENTS:
    body
-   TOPBAR
+   HEADER
    SIDEBAR
    MAIN
    POPUP
    FOOTER
+   STARTBAR
    CONTACT
    TEXT/COLOR
 */
@@ -50,63 +51,13 @@ button:hover{
   }
 }
 
-/*- STARTBAR */
-
-@media (min-width: 1200px) {
-   #startbar {
-      display: none;
-   }
-}
-
-#startbar{
-   background-color: #C8C8C8;
-   border: 2px outset white;
-   width: 100%;
-   height: 33px;
-   margin: 0px;
-   position: fixed;
-   overflow: none;
-   box-shadow: 0px 6px 0px black;
-}
-
-.startbtn{
-   border: 1px outset white;
-   background-color: #C8C8C8;
-   height: 25px;
-   width: 80px;
-   padding: auto;
-   margin-left: 5px;
-   overflow: none;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   font-size-adjust: .7;
-   text-align: left;
-}
-
-.startbtn img{
-   height: 20px;
-   display: inline-block;
-   margin-top: 0px;
-   margin-bottom: -4px;
-}
-
-.divider{
-   border: 1px inset white;
-}
-
-.sitename{
-   width: 200px;
-   margin-bottom: -4px;
-   margin-left: calc(100% - 310px);
-}
-
 /*- SIDEBAR */
 
 @media (max-width: 1200px) {
    #sidebar {
       display: none;
    }
-   #topbar {
+   #header {
       max-width: 90%;
       margin: 5%;
    }
@@ -186,9 +137,9 @@ button:hover{
    line-height: 1px;
 }
 
-/*- TOPBAR */
+/*- HEADER */
 
-#topbar{
+#header{
   background-color: transparent;
   width: 100%;
   padding: 0px 0px;
@@ -433,6 +384,56 @@ button:hover{
    margin-bottom: -8px;
    margin-right: 1%;
    margin-left: 0%;
+}
+
+/*- STARTBAR */
+
+@media (min-width: 1200px) {
+   #startbar {
+      display: none;
+   }
+}
+
+#startbar{
+   background-color: #C8C8C8;
+   border: 2px outset white;
+   width: 100%;
+   height: 50px;
+   margin: 0px;
+   position: fixed;
+   overflow: none;
+   box-shadow: 0px 6px 0px black;
+}
+
+.startbtn{
+   border: 1px outset white;
+   background-color: #C8C8C8;
+   height: 40px;
+   width: 100px;
+   padding: auto;
+   margin-left: 5px;
+   overflow: none;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size-adjust: .7;
+   text-align: left;
+}
+
+.startbtn img{
+   height: 35px;
+   display: inline-block;
+   margin-top: 0px;
+   margin-bottom: -5px;
+}
+
+.divider{
+   border: 1px inset white;
+}
+
+.sitename{
+   width: 250px;
+   margin-bottom: -5px;
+   margin-left: calc(100% - 310px);
 }
 
 /*- TEXT */
