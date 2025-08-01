@@ -93,13 +93,14 @@ button:hover{
 .divider{
    border: 1px inset white;
    display: inline-block;
-   height: 30px;
-   margin-bottom: -8px;
+   height: 38px;
+   margin-bottom: -12px;
 }
 
 .sitename{
    height: 25px;
-   margin-bottom: -8px;
+   margin-bottom: -6px;
+   margin-left: calc(100% - 370px);
 }
 
 /*- SIDEBAR */
