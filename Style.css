@@ -40,7 +40,7 @@ button:hover{
 }
 /*50px 50px 50px calc(10vw + 300px);*/
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
   main {
     display: flex;
     justify-content: center;
@@ -66,6 +66,7 @@ button:hover{
    height: 50px;
    margin: 0px;
    position: fixed;
+   z-index: 5;
    overflow: hidden;
    box-shadow: 0px 6px 0px black;
 }
@@ -271,19 +272,25 @@ button:hover{
 }
 
 .image-container{
-  margin-left: 5%;
-  margin-right: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border: 1px inset white;
+   width: 90%;
+   margin: 5%;
+   display: flex;
+   justify-content: center;
+   border: 1px inset white;
+}
+
+@media (max-width: 800px) {
+   .grid-image {
+      max-width: 20vw;
+      max-height: calc(20vw - 10px);
+   }
 }
 
 .grid-image{
-  width: 165px;
-  height: 165px;
-  margin: 5px;
-  overflow: hidden;
+   width: 165px;
+   height: 155px;
+   margin: 5px;
+   overflow: hidden;
 }
 
 /*- POPUP */
@@ -301,7 +308,7 @@ button:hover{
   display: flex;
   justify-content: center;
   -items: center;
-  z-index: 5;
+  z-index: 10;
   overflow: hidden;
    border: 2px outset white;
    box-shadow: 6px 6px 0px black;
@@ -359,6 +366,12 @@ button:hover{
 
 .close-btn:hover{
    border: 1px inset white;
+}
+
+@media (max-width:1200px) {
+   .arrow-btn{
+      margin-top: calc(46vh - 50px);
+   }
 }
 
 .arrow-btn{
