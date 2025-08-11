@@ -240,12 +240,18 @@ button:hover{
 
 /*- MEDIA */
 
-.youtube{
-  aspect-ratio: 16/9;
-  border: 1px inset white;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 5px;
+.media-box{
+   width: 90%;
+   margin: 5%;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   border: 1px inset white;
+}
+
+[title~="YouTube video player"]{
+   aspect-ratio: 16/9;
+   padding: 5px;
 }
 
 .post iframe{
@@ -271,14 +277,6 @@ button:hover{
   cursor: url(Icons/Hand.png), pointer;
 }
 
-.image-container{
-   width: 90%;
-   margin: 5%;
-   display: flex;
-   justify-content: center;
-   border: 1px inset white;
-}
-
 @media (max-width: 800px) {
    .grid-image {
       max-width: 20vw;
@@ -300,8 +298,8 @@ button:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: 80%;
-  max-width: 1500px;
+  width: 90vw;
+  max-width: 1400px;
   height: 90vh;
   max-height: 1500px;
   background-color: #C8C8C8;
