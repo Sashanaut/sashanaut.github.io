@@ -251,7 +251,7 @@ button:hover{
 
 [title~="YouTube video player"]{
    aspect-ratio: 16/9;
-   padding: 5px;
+   margin: 5px;
 }
 
 .post iframe{
