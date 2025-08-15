@@ -19,7 +19,7 @@ body {
   /*background-attachment: absolute;*/
   
   color: black;
-  font-family: "Monaco", "Consolas";
+  font-family: "Courier New", "Monaco";
   
   cursor: url(Icons/Mouse.png), auto;
 }
@@ -133,19 +133,13 @@ button:hover{
 
 /*- TEXT */
 
-@font-face{
-   font-family: 'Cooperbits';
-   src: "CooperBits.ttf";
-}
-
-
 h2{
-   font-family: "Lucida sans typewriter", "Lucida console";
+   font-family: "Lucida Console", "Monaco";
    color: white;
 }
 
 span{
-   font-family: "Monaco", "Consolas";
+   font-family: "Courier New", "Monaco";
    font-weight: bold;
    margin-left: -5;
 }
