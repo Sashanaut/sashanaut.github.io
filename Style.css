@@ -112,7 +112,7 @@ button:hover{
    }
    #header {
       max-width: 90%;
-      margin: 5%;
+      margin: 50px 5% 0px;
    }
 }
 
@@ -195,7 +195,6 @@ button:hover{
 #header{
   background-color: transparent;
   width: 100%;
-  padding: 0px 0px;
   position: relative;
   left: 0px;
   top: 20px;
@@ -208,7 +207,7 @@ button:hover{
   width: 100%;
   position: relative;
   left: 0px;
-  top: 50px;
+  margin-top: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -222,7 +221,7 @@ button:hover{
    border: 2px outset white;
    padding: 0px, 20px;
    box-shadow: 6px 6px 0px black;
-   margin-bottom: 5em;
+   margin-bottom: 4em;
 }
 
 .post h2{
