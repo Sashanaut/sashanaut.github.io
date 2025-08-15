@@ -48,11 +48,9 @@ button:hover{
 .top-bar{
   width: calc(100% - 12px);
   height: 30px;
-  line-height: 50px;
   border: 1px solid white;
   background-image: linear-gradient(to right, #0000ac , #262A3E);
   padding: 5px;
-  line-height: 0px;
 }
 
 .close-btn{
@@ -136,6 +134,7 @@ button:hover{
 h2{
    font-family: "Lucida Console", "Monaco";
    color: white;
+   margin-top: 4px;
 }
 
 span{
