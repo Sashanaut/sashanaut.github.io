@@ -75,7 +75,7 @@ button:hover{
    border: 1px outset white;
    background-color: #C8C8C8;
    height: 40px;
-   width: 100px;
+   width: 110px;
    padding: auto;
    margin: 5px;
    margin-right: 0px;
@@ -101,7 +101,7 @@ button:hover{
 .sitename{
    height: 25px;
    margin-bottom: -6px;
-   margin-left: calc(100% - 370px);
+   margin-left: calc(100% - 380px);
 }
 
 /*- SIDEBAR */
