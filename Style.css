@@ -21,7 +21,7 @@ body {
   /*background-attachment: absolute;*/
   
   color: black;
-  font-family: "Monaco", "Consolas";
+  font-family: "Courier", "Monaco";
   
   cursor: url(Icons/Mouse.png), auto;
 }
@@ -460,12 +460,12 @@ button:hover{
 
 h1{
    text-align: center;
-   font-family: "Cosmina", "Lucida sans typewriter", "Lucida console";
+   font-family: "Lucida Console", "Monaco";
    font-weight: bold;
 }
 
 h2{
-   font-family: "Cooperbits", "Lucida sans typewriter", "Lucida console";
+   font-family: "Lucida Console", "Monaco";
    color: white;
    margin: 0px;
    text-align: left;
@@ -473,13 +473,12 @@ h2{
 
 h4{
    text-align: center;
-   font-family: "Monaco", "Consolas";
+   font-family: "Courier", "Monaco";
    font-size: 30px;
    font-weight: bold;
 }
 
 span{
-   font-family: "Monaco", "Consolas";
    font-weight: bold;
    margin-left: -5;
 }
