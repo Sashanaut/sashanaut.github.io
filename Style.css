@@ -42,12 +42,13 @@ button:hover{
 
 @media (max-width: 1200px) {
   main {
-    display: flex;
-    justify-content: center;
+      display: flex;
+      justify-content: center;
   }
 
-  #container {
-    margin-left: unset;
+   #container {
+      margin-left: unset;
+      padding: 5%;
   }
 }
 
@@ -111,8 +112,8 @@ button:hover{
       display: none;
    }
    #header {
-      max-width: 90%;
-      margin: 50px 5% 0px;
+      max-width: 100%;
+      margin-top: 50px;
    }
 }
 
@@ -212,7 +213,7 @@ button:hover{
 
 @media (max-width: 1200px) {
   .post {
-    margin: 5%;
+    margin-bottom: 2em;
   }
 }
 
@@ -405,10 +406,9 @@ button:hover{
 /*- FOOTER */
 
 #footer{
-   margin: 50px 0px 96px;
+   margin: 50px 0px;
    text-align: center;
    padding: 10px 20px;
-   width: 20%;
    background-color: #C8C8C8;
    border: 2px outset white;
    box-shadow: 6px 6px 0px black;
