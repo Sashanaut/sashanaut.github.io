@@ -406,7 +406,7 @@ button:hover{
 /*- FOOTER */
 
 #footer{
-   margin: 50px 0px;
+   margin-bottom: 50px;
    text-align: center;
    padding: 10px 20px;
    background-color: #C8C8C8;
