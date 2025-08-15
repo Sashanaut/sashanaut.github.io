@@ -56,12 +56,16 @@ button:hover{
 }
 
 .close-btn{
-   margin-left: 0px;
-   height: 30px;
+   position: absolute;
    width: 30px;
+   height: 30px;
    top: 5px;
    right: 5px;
-   position: absolute;
+   background-color: #C8C8C8;
+   border: 1px outset white;
+   cursor: url(Icons/Hand.png), pointer;
+   font-size: 20px;
+   line-height: 26px;
 }
 
 @media (min-width: 300px){
