@@ -220,7 +220,6 @@ button:hover{
 .post{
    background-color: #C8C8C8;
    border: 2px outset white;
-   padding: 0px, 20px;
    box-shadow: 6px 6px 0px black;
    margin-bottom: 4em;
 }
@@ -235,7 +234,6 @@ button:hover{
 
 .post-box{
    border: 1px solid black;
-   padding: 3px;
 }
 
 /*- MEDIA */
@@ -483,7 +481,7 @@ span{
 }
 
 p{
-   margin-left: 1em;
+   margin: 1em;
 }
 
 a{
