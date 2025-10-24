@@ -245,6 +245,7 @@ button:hover{
    position: relative;
    justify-content: center;
    border: 1px inset white;
+   overflow: auto;
 }
 
 .post iframe{
@@ -272,6 +273,13 @@ button:hover{
   cursor: url(Icons/Hand.png), pointer;
 }
 
+.grid-image{
+   width: 165px;
+   height: 155px;
+   margin: 5px;
+   overflow: hidden;
+}
+
 @media (max-width: 800px) {
    .grid-image {
       max-width: 20vw;
@@ -279,11 +287,10 @@ button:hover{
    }
 }
 
-.grid-image{
-   width: 165px;
-   height: 155px;
-   margin: 5px;
-   overflow: hidden;
+@media (min-width: 800px) {
+   .grid-image {
+      min-width: 165px;
+   }
 }
 
 /*- POPUP */
