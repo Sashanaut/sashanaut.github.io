@@ -259,7 +259,7 @@ button:hover{
    cursor: url(Icons/Hand.png), pointer;
 }
 
-.media-box{
+.grid-box{
    margin: 5%;
    position: relative;
    justify-content: center;
