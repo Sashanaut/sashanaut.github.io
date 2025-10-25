@@ -238,33 +238,41 @@ button:hover{
 
 /*- MEDIA */
 
-.media-box{
-   width: 90%;
-   margin: 5%;
-   display: flex;
-   position: relative;
-   justify-content: center;
-   border: 1px inset white;
-   overflow: auto;
-}
-
-.post iframe{
-   width: 100%;
-   height: 100%;
-   aspect-ratio: 16/9;
-   margin: 5px;
-}
-
-.post video{
-   width: 30%;
-   margin: 1.5% 1.2%;
-   cursor: url(Icons/Hand.png), pointer;
-}
-
 .pointer{
   width: 100%;
   min-height: 100%;
   cursor: url(Icons/Hand.png), pointer;
+}
+.post iframe{
+   width: calc(90% - 10px);
+   aspect-ratio: 16/9;
+   margin: 5%;
+   padding: 5px;
+   border: 1px inset white;
+}
+
+.post video{
+   width: 30%;
+   margin: 5%;
+   padding: 5px;
+   border: 1px inset white;
+   cursor: url(Icons/Hand.png), pointer;
+}
+
+.media-box{
+   margin: 5%;
+   position: relative;
+   justify-content: center;
+   border: 1px inset white;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-image{
+   max-width: 165px;
+   aspect-ratio: 1/1;
+   margin: 5px;
+   overflow: hidden;
 }
 
 .image{
@@ -273,24 +281,14 @@ button:hover{
   cursor: url(Icons/Hand.png), pointer;
 }
 
-.grid-image{
-   width: 165px;
-   height: 155px;
-   margin: 5px;
-   overflow: hidden;
-}
-
 @media (max-width: 800px) {
    .grid-image {
-      max-width: 20vw;
-      max-height: calc(20vw - 10px);
+      max-width: 17vw;
    }
-}
-
-@media (min-width: 800px) {
-   .grid-image {
-      min-width: 165px;
-   }
+   .image {
+      width: 200%;
+      height: 200%;
+      margin: -70% -50%;
 }
 
 /*- POPUP */
@@ -300,9 +298,9 @@ button:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: 90vw;
+  width: 95vw;
   max-width: 1400px;
-  height: 90vh;
+  height: 95vh;
   max-height: 1500px;
   background-color: #C8C8C8;
   display: flex;
@@ -400,12 +398,18 @@ button:hover{
 .large-image{
    margin: auto;
    max-height: 80%;
-   max-width: 80%;
+   max-width: 90%;
    height: auto;
    width: auto;
    border: 1px inset white;
    padding: 5px;
    opacity: 0;
+}
+
+@media (max-height:800px) {
+   .large-image{
+      margin-top: 50px;
+   }
 }
 
 /*- FOOTER */
