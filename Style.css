@@ -30,6 +30,12 @@ a:hover{
 cursor: url(Icons/Hand.png), pointer;
 }
 
+.pointer{
+  width: 100%;
+  min-height: 100%;
+  cursor: url(Icons/Hand.png), pointer;
+}
+
 button:hover{
 cursor: url(Icons/Hand.png), pointer;
 }
@@ -212,85 +218,80 @@ margin-top: 30px;
 }
 
 @media (max-width: 1200px) {
-.post {
-margin-bottom: 2em;
-}
+  .post {
+    margin-bottom: 2em;
+  }
 }
 
 .post{
-background-color: #C8C8C8;
-border: 2px outset white;
-box-shadow: 6px 6px 0px black;
-margin-bottom: 4em;
+  background-color: #C8C8C8;
+  border: 2px outset white;
+  box-shadow: 6px 6px 0px black;
+  margin-bottom: 4em;
 }
 
 .post h2{
-border: 1px solid white;
-background-image: linear-gradient(to right, #0000ac , #262A3E);
-height: 25px;
-padding: 5px;
-line-height: 28px;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, #0000ac , #262A3E);
+  height: 25px;
+  padding: 5px;
+  line-height: 28px;
 }
 
 .post-box{
-border: 1px solid black;
+  border: 1px solid black;
 }
 
 /*- MEDIA */
 
-.media-box{
-width: 90%;
-margin: 5%;
-display: flex;
-position: relative;
-justify-content: center;
-border: 1px inset white;
-   overflow: auto;
+.grid-box{
+  margin: 5%;
+  position: relative;
+  justify-content: center;
+  border: 1px inset white;
+  display: grid;
+  grid-template-collumns: 25% 25% 25% 25%;
 }
 
 .post iframe{
-width: 100%;
-height: 100%;
-aspect-ratio: 16/9;
-margin: 5px;
+  width: calc(90% - 10px);
+  aspect-ratio: 16/9;
+  margin: 5%;
+  padding: 5px;
+  border: 1px inset white;
 }
 
 .post video{
-width: 30%;
-margin: 1.5% 1.2%;
-cursor: url(Icons/Hand.png), pointer;
-}
-
-.pointer{
-width: 100%;
-min-height: 100%;
-cursor: url(Icons/Hand.png), pointer;
+  width: 30%;
+  height: auto;
+  margin: 5%;
+  padding: 5px;
+  border: 1px inset white;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .image{
-width: 100%;
-min-height: 100%;
-cursor: url(Icons/Hand.png), pointer;
+  width: 100%;
+  min-height: 100%;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .grid-image{
-   width: 165px;
-   height: 155px;
-   margin: 5px;
-   overflow: hidden;
+  width: 165px;
+  aspect-ratio: 1/1;
+  margin: 5px;
+  overflow: hidden;
 }
 
 @media (max-width: 800px) {
-.grid-image {
-max-width: 20vw;
-max-height: calc(20vw - 10px);
-}
-}
-
-@media (min-width: 800px) {
-   .grid-image {
-      min-width: 165px;
-   }
+  .grid-image {
+    max-width: 17vw;
+  }
+  .image {
+    width: 200%;
+    height: 200%
+    margin: -70% -50%;
+  }
 }
 
 /*- POPUP */
