@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sasha Espinosa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="icon" href="Icons/Navicon23.png" type="image/gif">
+
+</head>
+
+<body>
+  <!-- MENUS -->
+  <nav>
+
+    <!-- STARTBAR -->
+    
+    <div id="startbar">
+      <a href=menu.html><button class="startbtn">
+        <img src="Icons/Start.png">
+        <span>Menu</span>
+      </button></a>
+      <span class="divider"></span>
+        <img class="sitename" src="Icons/Startbar.png">
+    </div>
+    
+    <!-- SIDEBAR -->
+
+  
+    <div id="sidebar">
+      <h2 class="sidebar-header">MENU</h2>
+
+      <div class="sidebar-box">
+        <img src="Icons/Blep.jpg" width=100%>
+        <nav id="nav">
+
+          <a href=index.html>
+            <button class="menubtn">
+              <img src="Icons/Home.png">
+              <span>Home</span>
+            </button>
+          </a>
+          <a href=animation.html>
+            <button class="menubtn">
+              <img src="Icons/Anim.png">
+              <span>Animation</span>
+            </button>
+          </a>
+          <a href=visuals.html>
+            <button class="menubtn">
+              <img src="Icons/Comp.png">
+              <span>Show Visuals</span>
+            </button>
+          </a>
+          <a href=#Top>
+            <button class="menubtn">
+              <img src="Icons/Personal.png">
+              <span>Personal Work</span>
+            </button>
+          </a>
+          <a href=contact.html>
+            <button class="menubtn">
+              <img src="Icons/Contact.png">
+              <span>Contact</span>
+            </button>
+          </a>
+        </nav>
+
+        <div class="socials">
+          <a href="https://instagram.com/sashanaut" target="_blank" title=" Instagram"><img src="Icons/IG.png"
+              width="100%"></a>
+          <a href="https://bsky.app/profile/sashanaut.bsky.social" target="_blank" title=" Bluesky"><img
+              src="Icons/BSKY.png" width="100%"></a>
+          <a href="https://www.youtube.com/sashanaut" target="_blank" title=" YouTube"><img src="Icons/YT.png"
+              width="100%"></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <main>
+    <div id="container">
+      
+      <!-- HEADER -->
+
+      <div id="header">
+        <img width="100%" src="Icons/Namegif.gif">
+      </div>
+
+      <!-- MAIN GALLERY -->
+
+      <div id="gallery">
+
+        <div class="post">
+          <h2>WEENSBY</h2>
+          <div class="post-box">
+            <p>Animation and compositing</p>
+            <video controls>
+              <source src="Photos/Ilovethissong.mp4#t=0.001" type="video/mp4">
+              <img src="Photos/Ilovethissong.png">
+            </video>
+            <video controls>
+              <source src="Photos/w_2bfs.mp4#t=0.001" type="video/mp4">
+            </video>
+            <video controls>
+              <source src="Photos/w_clowns.mp4#t=0.001" type="video/mp4">
+            </video>
+            <video controls>
+              <source src="Photos/Avocados_full.mp4#t=0.001" type="video/mp4">
+            </video>
+            <video controls>
+              <source src="Photos/closeted01.mp4#t=0.001" type="video/mp4">
+            </video>
+            </div>
+          </div>
+        </div>
+
+      <!-- FOOTER -->
+
+      <a href=#Top>
+        <button id="footer"> ^ Back to Top ^</button>
+      </a>
+    </div>
+  </main>
+  
+  <!-- POPUP -->
+
+  <div class="popup close">
+    <!-- topbar -->
+    <div class="top-bar">
+      <h2>Gallery</h2>
+      <span class="close-btn close">X</span>
+    </div>
+    <!-- arrows -->
+    <button class="arrow-btn left-arrow"><img width=100% src="Icons/Left.png"></button>
+    <button class="arrow-btn right-arrow"><img width=100% src="Icons/Right.png"></button>
+    <!-- image -->
+    <img data-img="img1" src="Photos/img1.png" class="large-image" alt="">
+  </div>
+</body>
+<script src="app.js"></script>
+
+</html>
