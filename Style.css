@@ -250,7 +250,7 @@ margin-top: 30px;
   justify-content: center;
   border: 1px inset white;
   display: grid;
-  grid-template-collumns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .post iframe{
@@ -277,7 +277,7 @@ margin-top: 30px;
 }
 
 .grid-image{
-  width: 165px;
+  max-width: 165px;
   aspect-ratio: 1/1;
   margin: 5px;
   overflow: hidden;
