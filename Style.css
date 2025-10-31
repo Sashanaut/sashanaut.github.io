@@ -334,7 +334,6 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 30px;
 background: none;
 text-align: center;
 line-height: 50px;
@@ -348,8 +347,9 @@ opacity: 0;
 
 .gallery-box{
   border: 1px solid black;
-  margin-top: 30px;
-  opacity: 0;
+  margin-top: 40px;
+  align-content: center;
+  display: flex;
 }
 
 .image-name{
@@ -357,16 +357,16 @@ opacity: 0;
 }
 
 .close-btn{
-position: absolute;
-width: 25px;
-height: 25px;
-top: 5px;
-right: 15px;
-background-color: #C8C8C8;
-border: 1px outset white;
-cursor: url(Icons/Hand.png), pointer;
-font-size: 20px;
-line-height: 26px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  right: 15px;
+  background-color: #C8C8C8;
+  border: 1px outset white;
+  cursor: url(Icons/Hand.png), pointer;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .close-btn:hover{
@@ -375,7 +375,7 @@ line-height: 26px;
 
 @media (max-width:1200px) {
   .arrow-btn{
-  margin-top: calc(46vh - 50px);
+  margin-top: calc(47vh - 40px);
 }
 }
 
