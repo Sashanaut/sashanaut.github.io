@@ -320,6 +320,7 @@ opacity: 1;
 
 .popup.active .close-btn,
 .popup.active .top-bar,
+.popup.active .gallery-box
 .popup.active .image-name,
 .popup.active .large-image,
 .popup.active .arrow-btn{
@@ -345,8 +346,14 @@ line-height: 28px;
 opacity: 0;
 }
 
+.gallery-box{
+  border: 1px solid black;
+  margin-top: 30px;
+  opacity: 0;
+}
+
 .image-name{
-opacity: 0;
+  opacity: 0;
 }
 
 .close-btn{
@@ -363,36 +370,36 @@ line-height: 26px;
 }
 
 .close-btn:hover{
-border: 1px inset white;
+  border: 1px inset white;
 }
 
 @media (max-width:1200px) {
-.arrow-btn{
-margin-top: calc(46vh - 50px);
+  .arrow-btn{
+  margin-top: calc(46vh - 50px);
 }
 }
 
 .arrow-btn{
-position: absolute;
-top: 50%;
-width: 60px;
-transform: translateY(-50%);
-padding: 10px;
-background-color: #C8C8C8;
-border: 1px outwet white;
-cursor: url(Icons/Hand.png), pointer;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #C8C8C8;
+  border: 1px outwet white;
+  cursor: url(Icons/Hand.png), pointer;
 }
 
 .arrow-btn:hover{
-border: 1px inset white;
+  border: 1px inset white;
 }
 
 .left-arrow{
-left: 10px;
+  left: 10px;
 }
 
 .right-arrow{
-right: 10px;
+  right: 10px;
 }
 
 .large-image{
