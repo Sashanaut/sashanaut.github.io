@@ -398,7 +398,7 @@ right: 10px;
 .large-image{
   margin: auto;
   max-height: 80%;
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   width: auto;
   border: 1px inset white;
@@ -406,11 +406,11 @@ right: 10px;
   opacity: 0;
 }
 
-@media (max-height:800px) {
+/*@media (max-height:800px) {
   .large-image{
     margin-top: 50px;
   }
-}
+}*/
 
 /*- FOOTER */
 
