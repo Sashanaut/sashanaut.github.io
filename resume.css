@@ -1,7 +1,8 @@
 body {
   background-color: none;
   background-image: url('Icons/Lined paper_12.png');
-  background-size: 792px, 612px;
+  background-size: 850px;
+  background-repeat: repeat-y;
   padding: 0px;
   margin: 0px;
 
@@ -12,10 +13,14 @@ body {
 }
 
 h2{
-  text-align: center;
+  text-align: left;
   font-family: "Lucida Console", "Monaco";
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-top: -9px;
+  margin-left: -7px;
+  width: 110%;
   border: 1px dashed black;
 }
 
@@ -27,7 +32,19 @@ h6{
   color: grey;
 }
 
-#header
+#column1{
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 510px;
+}
+
+#column2{
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 530px;
+  width: 300px;
+}
 
 .box{
   padding: 5px;
@@ -35,6 +52,7 @@ h6{
   background: white;
   border: 1px dashed black;
   border-radius: 5px;
+  overflow: hidden;
 }
 
   
